@@ -1,0 +1,12 @@
+<% include partials/header %>
+
+<link rel="stylesheet" href="app.css">
+
+<h1>You fell in love with: <%= thingVar %> </h1>
+<% if(thingVar.toLowerCase() === "rusty") { %>
+    <p>Good choice!</p>
+<% } %>
+
+<p>love.ejs file</p>
+
+<% include partials/footer %>
